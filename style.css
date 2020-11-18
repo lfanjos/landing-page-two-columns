@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  padding: 5rem;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.btn,
+nav {
+  font-family: "Raleway", sans-serif;
+  color: hsl(243, 87%, 12%);
+}
+
+h1,
+h2 {
+  font-size: 3.8rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 3rem;
+  color: white;
+}
+
+p {
+  font-size: 1.8rem;
+  margin: 1.5rem 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p a {
+  color: hsl(170, 45%, 43%);
+
+  border-bottom: 1px solid hsl(170, 45%, 43%);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  width: 20%;
+  font-size: 1.4rem;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+header li {
+  list-style: none;
+}
+
+.btn {
+  background-color: hsl(224, 93%, 58%);
+  padding: 1rem 0;
+  width: 15rem;
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 0.3rem;
+  box-shadow: 1px 1px 5px #666;
+  cursor: pointer;
+}
+
+#email,
+#email2 {
+  height: 3.5rem;
+  width: 30rem;
+  padding-left: 1.5rem;
+}
+
+#email {
+  margin-right: 1rem;
+}
+
+.call-to-action {
+  display: flex;
+  align-items: center;
+  margin: 5rem 0;
+  max-height: 34rem;
+}
+
+.requirements {
+  position: absolute;
+}
+
+.call-to-action-img {
+  width: 100%;
+}
+
+.testimonials-section {
+  /* background-image: url(/images/bg-curve-desktop.svg),
+    linear-gradient(to top, #f8f8fe 0%, #f8f8fe 85%, transparent 0%);
+  background-repeat: no-repeat;
+  */
+  background-color: #f8f8fe;
+  border-top-left-radius: 50% 20%;
+  border-top-right-radius: 50% 20%;
+  margin: 10rem -10rem 0;
+  padding: 20rem 10rem 10rem;
+  display: flex;
+}
+
+.tstp {
+  width: 90%;
+}
+
+.testimonial-card {
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0px 0px 8px rgba(153, 153, 153, 0.295);
+  width: 60%;
+  padding: 2.5rem;
+  margin-top: 5rem;
+}
+
+#icon-quotes {
+  height: 1.5rem;
+}
+
+.testimonial-card-avatar {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial-card-avatar-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.testimonial-card-avatar-info p:first-child {
+  font-weight: 700;
+  font-family: "Raleway";
+  margin: 0;
+  color: hsl(243, 87%, 12%);
+}
+
+.testimonial-card-avatar-info p:nth-child(2) {
+  margin-top: 0.5rem;
+  font-size: 1.4rem;
+  margin-bottom: 0;
+}
+
+.testimonial-card-avatar img {
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.call-to-action2 {
+  color: white;
+  background-color: hsl(238, 22%, 44%);
+  margin: 0 -5rem;
+  padding: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+.call-to-action2-text {
+  flex: 0 0 50%;
+  padding-right: 5%;
+}
+
+.requirements {
+  padding: 0rem 0px 0rem 0rem;
+  max-height: 0;
+  -webkit-transition: 0.28s;
+  transition: 0.28s;
+  overflow: hidden;
+  font-size: 1.4rem;
+  font-family: "Raleway";
+}
+
+input[type="email"]:invalid:not(:placeholder-shown) ~ .requirements {
+  max-height: 400px;
+  padding: 0.5rem 0rem 0rem 0rem;
+}
+
+.call-to-action2 .btn {
+  margin-top: 2.3rem;
+}
